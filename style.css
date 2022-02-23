@@ -2,19 +2,23 @@
     width: 500px;
     height: 500px;
     background-color: white;
+    position: relative;
 }
 #meme-image {
-    width: 100%;
+    height: 100%;
+    background-color: white;
     position: relative;
 }
 #meme-text {
-  position: relative;
-  margin-top: -50px;
+  position: absolute;
+  top: 420px;
+  width: 100%;
   text-align: center;
   text-shadow: 5px 5px 5px black;
   font-size: 30px;
   color: white;
 }
+
 
 .body {
     background-color: bisque;
@@ -36,17 +40,17 @@
 }
 
 .border2 {
-    border: 5px double blue;
+  border: 5px double blue;
 }
 
 .border3 {
-    border: 6px groove green;
+  border: 6px groove green;
 }
 
 .main {
-    display: flex;
-    margin-top: 30px;
-    justify-content: center;
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
 }
 
 .input {
