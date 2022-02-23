@@ -1,6 +1,7 @@
 #meme-image-container {
     width: 500px;
     height: 500px;
+    background-color: white;
 }
 #meme-image {
     width: 100%;
@@ -31,15 +32,15 @@
 }
 
 .border1 {
-    border: 2px solid rgb(34, 71, 34);
+    border: 3px dashed red;
 }
 
 .border2 {
-    border: 3px solid rgb(121, 64, 64);
+    border: 5px double blue;
 }
 
 .border3 {
-    border: 3px solid rgb(219, 176, 33);
+    border: 6px groove green;
 }
 
 .main {

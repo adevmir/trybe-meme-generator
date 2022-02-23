@@ -12,14 +12,14 @@
         <h1> Meme Generator!</h1>
     </header>
     <form>
-        <label for="text"> Adicione Seu Texto: </label><input class="input" type="text" name="text" id="text-input" maxlength="60">
+        <label for="text-input"> Adicione Seu Texto: </label><input class="input" type="text" id="text-input" maxlength="60">
     <br>
-        <label for="file"> Adicione Sua Imagem: </label><input class="input" name="file" type="file" id="meme-insert">
+        <label for="meme-insert"> Adicione Sua Imagem: </label><input class="input" type="file" id="meme-insert">
     </form>
     <br>
-    <button class="button" id="button1" onclick="mudaBorda('border1')">Borda 1</button>
-    <button class="button" id="button2" onclick="mudaBorda('border2')">Borda 2</button>
-    <button class="button" id="button3" onclick="mudaBorda('border3')">Borda 3</button>
+    <button class="button" id="fire" onclick="mudaBorda('border1')">Borda 1</button>
+    <button class="button" id="water" onclick="mudaBorda('border2')">Borda 2</button>
+    <button class="button" id="earth" onclick="mudaBorda('border3')">Borda 3</button>
     <main class="main">
         <div class="borderBase" id="meme-image-container">
             <img src="" id="meme-image">
