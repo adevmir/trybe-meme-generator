@@ -1,0 +1,53 @@
+#meme-image-container {
+    width: 500px;
+    height: 500px;
+}
+#meme-image {
+    width: 100%;
+    position: relative;
+}
+#meme-text {
+  position: relative;
+  margin-top: -50px;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  font-size: 30px;
+  color: white;
+}
+
+.body {
+    background-color: bisque;
+    text-align: center;
+}
+
+.borderBase {
+  border: 1px solid black;
+}
+
+.button {
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    display: inline-block;
+}
+
+.border1 {
+    border: 2px solid rgb(34, 71, 34);
+}
+
+.border2 {
+    border: 3px solid rgb(121, 64, 64);
+}
+
+.border3 {
+    border: 3px solid rgb(219, 176, 33);
+}
+
+.main {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.input {
+    margin: 10px;
+}
