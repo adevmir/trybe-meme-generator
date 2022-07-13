@@ -6,6 +6,7 @@
 }
 #meme-image {
     height: 100%;
+    width: 100%;
     background-color: white;
     position: relative;
 }
@@ -16,9 +17,20 @@
   text-align: center;
   text-shadow: 5px 5px 5px black;
   font-size: 30px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
+#fire {
+  background-color: red;
+}
+
+#water {
+  background-color: blue;
+}
+
+#earth {
+  background-color: green;
+}
 
 .body {
     background-color: bisque;

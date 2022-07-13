@@ -7,17 +7,20 @@ function memeText() {
 function readImage() {
   if (this.files && this.files[0]) {
     const file = new FileReader();
-    file.onload = function (e) {
+    file.onload = (e) => {
       document.getElementById('meme-image').src = e.target.result;
     };
     file.readAsDataURL(this.files[0]);
   }
 }
 
-// eslint-disable-next-line no-unused-vars
-function mudaBorda(border) {
-  document.getElementById('meme-image-container').setAttribute('class', border);
-}
+const container = document.getElementById('meme-image-container');
 
 document.getElementById('meme-insert').addEventListener('change', readImage, false);
-document.getElementById('text-input').addEventListener('change', memeText);
+document.getElementById('text-input').addEventListener('keyup', memeText);
+document.getElementById('fire').addEventListener('click',
+  () => container.setAttribute('class', 'border1'));
+document.getElementById('water').addEventListener('click',
+  () => container.setAttribute('class', 'border2'));
+document.getElementById('earth').addEventListener('click',
+  () => container.setAttribute('class', 'border3'));
